@@ -1,0 +1,52 @@
+<!DOCTYPEhtml>
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="canvas" width="600" height="600" style="background-color: #fcf803">
+</canvas>
+<script>
+let ball =[{fillText = "Bobby"}, {"ball"}, {"Kyler"} ];
+
+function setup() {
+  ctx.arc(0, 0, radius, 0 , 2 * Math.PI);
+  ctx.fillStyle = "blue";
+  ctx.fill();
+
+}
+function setup() {
+	console.log(" initial array is ");
+	console.log(ball);
+
+	ball.bounce();
+	console.log(ball);
+
+	ball.shift();
+	console.log("array after shift")
+	console.log(ball);
+
+	ball.unshift("alvie")
+	console.log("array after unshift")
+	ball.push("Bobby");
+
+	ball.splice();
+	console.log("array after splice")
+	console.log(ball);
+}
+</script>
+<script>
+	var canvas = document.getElementByBall("myCanvas");
+	var ctx= canvas.getContext("2d");
+	ctx.font = "30px Arial";
+	ctx.fillText = ("Bobby", 10,50);
+</script>
+<script >
+	randomIndex = int(random(ball.length));
+	console.log(ball[int(random(ball.length))].name);
+	fillText(ball[randomIndex].name, 50,50);
+
+	ball.splice(randomIndex, 1);
+	console.log(ball);
+</script>
+</body>
+</html>
