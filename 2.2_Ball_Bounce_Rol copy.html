@@ -1,0 +1,105 @@
+<!DOCTYPEhtml>
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="canvas" width="600" height="600" style="background-color: #fcf803">
+</canvas>
+<script>
+let ball =[{fillText = "Bobby"}, {"ball"}, {"Kyler"} ];
+
+function setup() {
+  ctx.arc(0, 0, radius, 0 , 2 * Math.PI);
+  ctx.fillStyle = "blue";
+  ctx.fill();
+
+}
+function setup() {
+	console.log(" initial array is ");
+	console.log(ball);
+
+	ball.bounce();
+	console.log(ball);
+
+	ball.shift();
+	console.log("array after shift")
+	console.log(ball);
+
+	ball.unshift("alvie")
+	console.log("array after unshift")
+	ball.push("Bobby");
+
+	ball.splice();
+	console.log("array after splice")
+	console.log(ball);
+}
+</script>
+<script>
+	var canvas = document.getElementByBall("myCanvas");
+	var ctx= canvas.getContext("2d");
+	ctx.font = "30px Arial";
+	ctx.fillText = ("Bobby", 10,50);
+</script>
+<script >
+	randomIndex = int(random(ball.length));
+	console.log(ball[int(random(ball.length))].name);
+	fillText(ball[randomIndex].name, 50,50);
+
+	ball.splice(randomIndex, 1);
+	console.log(ball);
+</script>
+<script> 
+	  (ball[0]){
+		bacground(random (600,600);
+		randomIndex =int (random(ball.length));
+		text(ball [randomIndex].name, 50,50);
+		dogs.splice(randomIndex, 1);
+	}
+ } else {
+ 	style = background-color 
+ 	text("nothing left!", 50,50);</script>
+
+
+let randomIndex;
+let counter = 0
+textSize = 32 
+let animating = true;
+<script>
+	text("click to randomize", 20,20);
+	setTimeout(changeBackground, 1000);
+	setInterval(changeBackground, 1000);
+function draw(){
+
+	if(animating == true){
+		ellipse(random(width), random(height), random(50,200))
+	}
+}
+function changeBackground(){
+		if (counter <=5)
+			counter++;
+	background(random(400), random(400),random(400));
+	setTimeout(changeBackground, 1000);
+		
+
+}
+</script>
+<script>
+	function randomizer(){
+		animating = false;
+		background(random (200,255));
+		randomIndex =int(random(ball.length));
+		text(ball[randomIndex].name +"'s faviorate color is" + ball 
+			[randomIndex}.color.name, 50,50);
+		ball.splice(randomIndex, 1);
+
+	}
+	function mousePressed(){
+		animating = true;
+		setTimeout(randomizer, 20000);
+
+	}
+</script>
+
+	
+</body>
+</html>
