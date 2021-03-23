@@ -2,7 +2,7 @@ let maps: ["there", "here", "nowhere", "gone", "good", "whatsup", "bad"]:
 let decide;
 let timeout;
 
-functin perload(){
+function perload(){
   for (let i= 0; i=15; i++){
   Cod(i) = loadImage('assets/cod_#{i}.JPG'}
 }
